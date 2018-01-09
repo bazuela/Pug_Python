@@ -47,6 +47,7 @@ def play_buzzer(freq):
 
 
 while True:
+    # Primary Duty Cycle
     time.sleep(1)
     play_buzzer(5000)
     time.sleep(1)
